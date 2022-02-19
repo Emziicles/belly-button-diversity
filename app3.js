@@ -60,12 +60,15 @@ function makeCharts(sample) {
             text: otu_labels.slice(0, 10).reverse(),
             type: "bar",
             orientation: "h",
+            marker: {
+                color: "conda argb(142,124,195)"
+            }
         }
       ];
 
      var layout = {
         title: "Top 10 OTU's",
-        margin: { t:50, l:150},
+        margin: { t:50, l:100, b:50, r:100},
       };
 
      Plotly.newPlot("bar", barChart, layout);
