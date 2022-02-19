@@ -61,7 +61,7 @@ function makeCharts(sample) {
             type: "bar",
             orientation: "h",
             marker: {
-                color: "conda argb(142,124,195)"
+                color: "rgb(142,124,195)"
             }
         }
       ];
